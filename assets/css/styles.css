@@ -417,7 +417,8 @@ main {
   object-position: center;
   pointer-events: none;
   border-radius: 50rem;
-  border: 1px solid var(--primary-border-color);
+  border: 5px solid var(--primary-border-color);
+  outline: 5px solid var(--secondary-border-color);
 }
 
 .about__description {
