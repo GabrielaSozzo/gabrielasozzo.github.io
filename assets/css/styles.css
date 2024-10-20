@@ -607,6 +607,25 @@ footer p {
   footer {
     margin: 0;
   }
+
+  .skills {
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .skills .hard__skills {
+    padding-bottom: 4rem;
+  }
+
+  .hard__skills p,
+  .soft__skills p {
+    padding-top: 1rem;
+  }
+
+  .hard__skills ul,
+  .soft__skills ul {
+    padding-top: 1rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -642,6 +661,25 @@ footer p {
 
   .description__buttons {
     justify-content: flex-start;
+  }
+
+  .skills {
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .skills .hard__skills {
+    padding-bottom: 4rem;
+  }
+
+  .hard__skills p,
+  .soft__skills p {
+    padding-top: 1rem;
+  }
+
+  .hard__skills ul,
+  .soft__skills ul {
+    padding-top: 1rem;
   }
 }
 
@@ -696,6 +734,26 @@ footer p {
   .description__buttons .btn {
     width: auto;
   }
+
+  .skills {
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .skills .hard__skills {
+    padding-bottom: 4rem;
+  }
+
+  .hard__skills p,
+  .soft__skills p {
+    padding-top: 1rem;
+  }
+
+  .hard__skills ul,
+  .soft__skills ul {
+    padding-top: 1rem;
+  }
+
 }
 
 @media (min-width: 1400px) {
