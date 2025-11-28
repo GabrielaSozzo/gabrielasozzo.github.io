@@ -287,10 +287,11 @@ main {
   padding-bottom: 64px;
 }
 
-.hard__skills, .soft__skills {
+.hard__skills,
+.soft__skills {
   padding: 2rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   flex: 1 1 400px; /* deixa responsivo e proporcional */
   display: flex;
   flex-direction: column;
@@ -357,7 +358,6 @@ main {
   color: var(--title-color);
 }
 
-
 .card__list,
 .about__list {
   margin-left: 1.25rem;
@@ -408,7 +408,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.3rem;
   padding: 2rem 1rem;
   background: var(--secondary-bg-color);
 }
@@ -792,7 +792,6 @@ footer p {
   .soft__skills ul {
     padding-top: 1rem;
   }
-
 }
 
 @media (min-width: 1400px) {
